@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/css/main.e864c60f.chunk.css",
-    "main.js": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/js/main.56787027.chunk.js",
-    "main.js.map": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/js/main.56787027.chunk.js.map",
-    "runtime-main.js": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/js/runtime-main.deb4f0a4.js",
-    "runtime-main.js.map": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/js/runtime-main.deb4f0a4.js.map",
-    "static/js/2.324e297c.chunk.js": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/js/2.324e297c.chunk.js",
-    "static/js/2.324e297c.chunk.js.map": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/js/2.324e297c.chunk.js.map",
-    "index.html": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/index.html",
-    "static/css/main.e864c60f.chunk.css.map": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/css/main.e864c60f.chunk.css.map",
-    "static/js/2.324e297c.chunk.js.LICENSE.txt": "/Stas-Ukrop/goit-react-hw-05-redux-toolkit/static/js/2.324e297c.chunk.js.LICENSE.txt"
+    "main.css": "/goit-react-hw-05-redux-toolkit/static/css/main.e864c60f.chunk.css",
+    "main.js": "/goit-react-hw-05-redux-toolkit/static/js/main.56787027.chunk.js",
+    "main.js.map": "/goit-react-hw-05-redux-toolkit/static/js/main.56787027.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-05-redux-toolkit/static/js/runtime-main.93555941.js",
+    "runtime-main.js.map": "/goit-react-hw-05-redux-toolkit/static/js/runtime-main.93555941.js.map",
+    "static/js/2.324e297c.chunk.js": "/goit-react-hw-05-redux-toolkit/static/js/2.324e297c.chunk.js",
+    "static/js/2.324e297c.chunk.js.map": "/goit-react-hw-05-redux-toolkit/static/js/2.324e297c.chunk.js.map",
+    "index.html": "/goit-react-hw-05-redux-toolkit/index.html",
+    "static/css/main.e864c60f.chunk.css.map": "/goit-react-hw-05-redux-toolkit/static/css/main.e864c60f.chunk.css.map",
+    "static/js/2.324e297c.chunk.js.LICENSE.txt": "/goit-react-hw-05-redux-toolkit/static/js/2.324e297c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.deb4f0a4.js",
+    "static/js/runtime-main.93555941.js",
     "static/js/2.324e297c.chunk.js",
     "static/css/main.e864c60f.chunk.css",
     "static/js/main.56787027.chunk.js"
