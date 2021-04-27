@@ -11,23 +11,9 @@ const addTodo = createAction(type.ADD, (text, number) => {
     },
   };
 });
-// const addTodo = (text, number) => ({
-// type: type.ADD,
-// payload: {
-// id: shotid.generate(),
-// text,
-// number,
-// },
-// });
+
 const deleteTodo = createAction(type.DELETE);
-// const deleteTodo = (id) => ({
-// type: type.DELETE,
-// payload: id,
-// });
+
 const filter = createAction(type.FILTER);
-// const filter = (text) => ({
-// type: type.FILTER,
-// payload: text,
-// });
 
 export default { addTodo, deleteTodo, filter };

@@ -1,6 +1,6 @@
 import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import logger from "redux-logger";
-import todoReducer from "../component/ListTodo/reduxTodo/todo-reducer";
+import Reducer from "../component/ListContact/reduxTodo/todo-reducer";
 import {
   persistStore,
   persistReducer,
@@ -21,14 +21,14 @@ const middleware = [
   }),
   logger,
 ];
-const todosPersistConfig = {
-  key: "todos",
+const PersistConfig = {
+  key: "contact",
   storage,
   blacklist: ["filter"],
 };
 const store = configureStore({
   reducer: {
-    todos: persistReducer(todosPersistConfig, todoReducer),
+    todos: persistReducer(PersistConfig, Reducer),
   },
   middleware,
   devTools: process.env.NODE_ENV === "development",

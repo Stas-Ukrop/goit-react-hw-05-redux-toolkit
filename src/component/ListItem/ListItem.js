@@ -1,15 +1,16 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const ListItem = ({ mass, onDeleteTodo }) => {
+const ListItem = ({ mass, onDelete }) => {
   return (
     <ul>
       {mass !== undefined &&
         mass.map(({ id, text, number }) => {
           return (
             <li key={id}>
-              <p> {text}:</p>
+              <span> {text} : </span>
               <span> {number}</span>
-              <button type="button" onClick={() => onDeleteTodo(id)}>
+              <button type="button" onClick={() => onDelete(id)}>
                 Удалить
               </button>
             </li>
@@ -19,3 +20,8 @@ const ListItem = ({ mass, onDeleteTodo }) => {
   );
 };
 export default ListItem;
+
+ListItem.propTypes = {
+  mass: PropTypes.array,
+  onDelete: PropTypes.func,
+};
